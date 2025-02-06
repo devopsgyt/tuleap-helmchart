@@ -1,2 +1,5 @@
 # Chart dependencies
 **/charts/*.tgz
+index.yaml
+robots.txt
+charts/tuleap/Chart.lock
