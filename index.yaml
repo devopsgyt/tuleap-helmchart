@@ -3,7 +3,7 @@ entries:
   tuleap:
   - apiVersion: v2
     appVersion: 13.5.0
-    created: "2025-02-06T09:13:33.818029426-06:00"
+    created: "2025-02-06T12:13:39.2286638-06:00"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -18,13 +18,13 @@ entries:
       repository: https://codecentric.github.io/helm-charts
       version: 5.0.2
     description: A Helm chart for Kubernetes
-    digest: 9762421bfbecf77c3fdf88071e8a084ce8f8b90b8274018808cce49bdee75f58
+    digest: 86203bbfa8deabea3af150d10d50c5444453a08ad5b452832cca85532aaad6b8
     maintainers:
     - email: guilhem.bonnefille@csgroup.eu
       name: gbonnefille
     name: tuleap
     type: application
     urls:
-    - https://github.com/devopsgyt/tuleap-helmchart/tuleap-0.3.2.tgz
+    - https://devopsgyt.github.io/tuleap-helmchart/tuleap-0.3.2.tgz
     version: 0.3.2
-generated: "2025-02-06T09:13:33.794268297-06:00"
+generated: "2025-02-06T12:13:39.2184909-06:00"
