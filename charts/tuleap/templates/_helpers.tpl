@@ -58,6 +58,17 @@ Redefined expecting Helm 3.7 to be able to make call like template "mysql.secret
 {{- end -}}
 
 {{/*
+  Determine the hostname to use for mySQL.
+*/}}
+{{- define "mysql.dbUser" -}}
+{{- if .Values.mysql.enabled -}}
+{{- printf "%s" "root" -}}
+{{- else -}}
+{{- printf "%s" .Values.mysql.dbUser -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
   Determine the hostname to use for Redis.
 */}}
 {{- define "redis.hostname" -}}

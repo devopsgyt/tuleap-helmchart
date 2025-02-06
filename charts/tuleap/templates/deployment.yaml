@@ -83,7 +83,7 @@ spec:
             - name: DB_HOST
               value: "{{ template "mysql.hostname" .}}"
             - name: DB_ADMIN_USER
-              value: root
+              value: "{{ template "mysql.dbUser" .}}"
             - name: DB_ADMIN_PASSWORD
               valueFrom:
                 secretKeyRef:
