@@ -1,0 +1,30 @@
+apiVersion: v1
+entries:
+  tuleap:
+  - apiVersion: v2
+    appVersion: 13.5.0
+    created: "2025-02-06T09:13:33.818029426-06:00"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.15
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.6.4
+    - condition: mailhog.enabled
+      name: mailhog
+      repository: https://codecentric.github.io/helm-charts
+      version: 5.0.2
+    description: A Helm chart for Kubernetes
+    digest: 9762421bfbecf77c3fdf88071e8a084ce8f8b90b8274018808cce49bdee75f58
+    maintainers:
+    - email: guilhem.bonnefille@csgroup.eu
+      name: gbonnefille
+    name: tuleap
+    type: application
+    urls:
+    - https://github.com/devopsgyt/tuleap-helmchart/tuleap-0.3.2.tgz
+    version: 0.3.2
+generated: "2025-02-06T09:13:33.794268297-06:00"
