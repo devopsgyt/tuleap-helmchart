@@ -58,7 +58,7 @@ Redefined expecting Helm 3.7 to be able to make call like template "mysql.secret
 {{- end -}}
 
 {{/*
-  Determine the hostname to use for mySQL.
+  Determine the dbUser to use for mySQL.
 */}}
 {{- define "mysql.dbUser" -}}
 {{- if .Values.mysql.enabled -}}
